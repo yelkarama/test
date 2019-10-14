@@ -2,4 +2,5 @@ FROM alpine
 
 COPY . /git/
 
-RUN cat /git/test
+CMD [ "cat", "/git/test" ]
+
